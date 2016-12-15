@@ -1,24 +1,5 @@
-# README
+# Broken example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails project after running hyper-rails install generator and adding a simple component.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Pre-rendering is working, but Opal, React and HyperReact code is not being delivered to the browser (almost like application.js is not being inserted into the page).
