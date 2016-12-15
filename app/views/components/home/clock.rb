@@ -36,6 +36,9 @@ module Components
           h1 { "Click me" }.on(:click) {
             alert "clicked"
           }
+          10.times do |i|
+            li {"number #{i}"}
+          end
         end
       end
     end
